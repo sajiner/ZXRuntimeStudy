@@ -13,6 +13,7 @@
 		AED0BD9A1E51825500B4E4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED0BD981E51825500B4E4A6 /* Main.storyboard */; };
 		AED0BD9C1E51825500B4E4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED0BD9B1E51825500B4E4A6 /* Assets.xcassets */; };
 		AED0BD9F1E51825500B4E4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED0BD9D1E51825500B4E4A6 /* LaunchScreen.storyboard */; };
+		AED0BDA81E5182DF00B4E4A6 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AED0BDA71E5182DF00B4E4A6 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AED0BD9B1E51825500B4E4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED0BD9E1E51825500B4E4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED0BDA01E51825500B4E4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED0BDA61E5182DF00B4E4A6 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		AED0BDA71E5182DF00B4E4A6 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				AED0BD9D1E51825500B4E4A6 /* LaunchScreen.storyboard */,
 				AED0BDA01E51825500B4E4A6 /* Info.plist */,
 				AED0BD8F1E51825500B4E4A6 /* Supporting Files */,
+				AED0BDA61E5182DF00B4E4A6 /* MyClass.h */,
+				AED0BDA71E5182DF00B4E4A6 /* MyClass.m */,
 			);
 			path = ZXRuntimeStudy;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED0BDA81E5182DF00B4E4A6 /* MyClass.m in Sources */,
 				AED0BD971E51825500B4E4A6 /* ViewController.m in Sources */,
 				AED0BD941E51825500B4E4A6 /* AppDelegate.m in Sources */,
 				AED0BD911E51825500B4E4A6 /* main.m in Sources */,
